@@ -1,0 +1,14 @@
+print("Введите строку:")
+a=input()
+a=a.split()
+b=input("Что меняем:")
+b1=input("На что заменить:")
+s=len(a)
+a1=""
+for i in range (0,s):
+    if a[i]==b:
+        a1=a1+b1
+    else:
+        a1=a1+a[i]
+    a1=a1+" "
+print(a1)
