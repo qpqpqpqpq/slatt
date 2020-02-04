@@ -1,0 +1,21 @@
+from random import *
+p=randint(3,10)
+print("Начальная матрица")
+a=[[randint(10,99)for i in range(p)]for j in range(p)]
+for i in range (p):
+    for j in range(p):
+        print(a[i][j],end =" ")
+    print()
+for j in range(p):
+    x=p-1
+    for i in range(p//2):
+        l1=a[i][j]
+        l2=a[x][j]
+        a[i][j]=l2
+        a[x][j]=l1
+        x=x-1
+print("результат:")
+for i in range (p):
+    for j in range(p):
+        print(a[i][j],end =" ")
+    print()
