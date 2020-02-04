@@ -1,0 +1,20 @@
+from random import *
+p=randint(3,10)
+x=1
+print("Начальная матрица")
+a=[[randint(10,99)for i in range(p)]for j in range(p)]
+for i in range (p):
+    for j in range(p):
+        print(a[i][j],end =" ")
+    print()
+for i in range (p):
+    x1=x
+    while x1<p:
+        a[i][x1]=0
+        x1=x1+1
+    x=x+1
+print("Результат :")
+for i in range (p):
+    for j in range(p):
+        print("{:2d}".format(a[i][j]),end =" ")
+    print()
