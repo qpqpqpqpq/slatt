@@ -1,0 +1,10 @@
+num=int(input())
+def change8(a):
+    rez=""
+    while a>0:
+        c=a%8
+        rez=str(c)+rez
+        a=a//8
+    return rez
+b=change8(num)
+print(b)
