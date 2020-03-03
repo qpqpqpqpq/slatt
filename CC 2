@@ -1,0 +1,12 @@
+def changeX(a,x):
+    if x!=10:
+        rez=""
+        while a>0:
+            c=a%x
+            rez=str(c)+rez
+            a=a//x
+        return rez
+a1=int(input())
+A=int(input())
+a,x=changeX(a1,A)
+print(a,x,sep="")
