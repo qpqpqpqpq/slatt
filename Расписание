@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Перемена</title>
+<link rel = "stylesheet" href = "STYLE.css">
+</head>
+<body>
+<header>
+<div id="bg">
+<h1 align="center">Управление школьным звонком</h1>
+</header>
+</div>
+<table>
+<thead style="background: #ffcd8f"> 
+<tr>
+ <td> Первая смена </td>
+ <td> Вторая смена </td>
+</tr>
+</thead>
+<tr>
+ <td  class="Time">
+  <form action="peremena.html" method="POST">
+  <div> <p>Урок №1. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №2. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №3. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №4. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №5. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №6. <br><input type="text" placeholder="Длительность урока"></p></div>
+ </td>
+  <td  class="Time">
+  <form action="peremena.html" method="POST">
+  <div> <p>Урок №1. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №2. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №3. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №4. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №5. <br><input type="text" placeholder="Длительность урока"></p></div>
+  <div> <p>Урок №6. <br><input type="text" placeholder="Длительность урока"></p></div>
+ </td>
+</table>
+<input type="button" value="Сохранить" title="Сохранить расписание">
+<input type="button" value="Перезагрузить"">
+<input type="button" value="Выход">
+<div id="bg">
+<h2 align="center">Проект Ученика 10 класса Конева И. Руков. уч. Немыкин А.В.</h2>
+</div>
+
+</body>
+</html>
